@@ -48,16 +48,12 @@ docker-compose file to specify two services
 
 Write code to ingest data from the API endpoints:
 
-* [competitions](https://api.football-data.org/v4/competitions)
-* [teams within the competitions](https://api.football-data.org/v4/competitions/{id}/teams)
+* [competitions](https://raw.githubusercontent.com/ampol-cwoodwa/data-engineer-take-home-test/refs/heads/main/competitions.json)
+* [teams within the competitions](https://raw.githubusercontent.com/ampol-cwoodwa/data-engineer-take-home-test/refs/heads/main/teams.json)
 
 Take care to adhere to clean coding principles and follow usual best practices, especially with regard to code readability.
 
 You can find the full documentation for the API [here](https://www.football-data.org/documentation/quickstart)
-
-You should apply for an API Key [here](https://www.football-data.org/client/register).
-
-Expect the API to be throttled so ensure you handle the rate limits appropriately.
 
 ### Part two: store the data in files
 
